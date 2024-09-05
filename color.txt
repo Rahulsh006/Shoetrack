@@ -1,0 +1,4 @@
+color hexavalue:
+#16325B
+#071952 - fixed
+#00215e
