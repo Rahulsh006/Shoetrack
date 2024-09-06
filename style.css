@@ -1429,8 +1429,8 @@ input:checked + label .descriptionp {
 
 .carousel-caption {
     position: absolute;
-    margin-left: 535px;
-    margin-bottom:250px ;
+    margin-left: 450px;
+    margin-bottom:10px ;
     transform: translate(-50%, -50%);
     display: flex;
     flex-direction: column;
@@ -1478,7 +1478,7 @@ input:checked + label .descriptionp {
     background-color: white;
     color: black;
 }
-
+ z 
 .carousel-item {
     position: relative;
     height: 100vh;
