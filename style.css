@@ -1809,6 +1809,17 @@ input:checked + label .descriptionp {
     vertical-align: middle;
 }
 
+
+.footer-social a {
+    display: inline-block;
+    transition: transform 0.3s ease; 
+}
+
+.footer-social a:hover {
+    transform: translateY(-5px); 
+}
+
+
 .footer-social i {
     font-size: 24px;
     color: white;
