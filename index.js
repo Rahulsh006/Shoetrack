@@ -43,24 +43,24 @@ backButton.onclick = function(){
     carousel.classList.remove('showDetail');
 }
 
-
+//LOAD MORE PRODUCT SECTION
 
 document.getElementById("show-more-btn2").addEventListener("click", function() {
     var moreProducts = document.getElementById("more-products");
 
-    // Toggle visibility of the product grid with transition
+   
     if (moreProducts.classList.contains("show")) {
         moreProducts.classList.remove("show"); // Hide with transition
         setTimeout(function() {
             moreProducts.style.display = "none"; // Fully hide after transition
-        }, 500); // Wait for transition to finish
+        }, 500); 
         this.innerText = "LOAD MORE PRODUCTS"; // Change button text back to "Load More"
     } else {
-        moreProducts.style.display = "flex"; // Show the product grid immediately
+        moreProducts.style.display = "flex"; // Shows the product grid immediately
         setTimeout(function() {
-            moreProducts.classList.add("show"); // Add transition effect
-        }, 10); // Delay for smooth transition start
-        this.innerText = "SHOW LESS PRODUCTS"; // Change button text to "Show Less"
+            moreProducts.classList.add("show"); 
+        }, 10); // Delay 
+        this.innerText = "SHOW LESS PRODUCTS"; // Change 
     }
 });
 
