@@ -1334,11 +1334,6 @@ input:checked + label .descriptionp {
 
 
 
-
-
-
-
-
 .space2{
    padding: 50px;
    margin-top: 35px;
@@ -1496,9 +1491,120 @@ input:checked + label .descriptionp {
 }
 
 
+.carbongrid{
+
+ font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  margin-top: 80px;
+}
 
 
+.xt6head121 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: "New Amsterdam", sans-serif;
+    color: white;
+    text-align: left;
+}
+.xt6121 {
+    font-size: 1.0rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-family: "New Amsterdam", sans-serif;
+    text-align: left;
+}
 
+.limited-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+.limited-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .limited-header h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .limited-header p {
+    font-size: 1.2em;
+    margin: 10px 0 0;
+  }
+  
+  .limited-product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 45px;
+  }
+  
+  .limited-product-card {
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 23%;
+    transition: transform 0.3s ease;
+  }
+  
+  .limited-product-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .limited-product-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .limited-product-info {
+    padding: 15px;
+    text-align: left;
+    font-size: 1.0em;
+    font-weight: bold;
+    color: #000000;
+    font-family: "New Amsterdam", sans-serif ;
+  }
+  
+  .limited-new-arrival {
+    color: #f50057;
+    font-weight: bold;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .limited-product-info h3 {
+    font-size: 1.2em;
+    margin: 10px 0 5px;
+  }
+  
+  .limited-product-info p {
+    font-size: 1em;
+    margin: 5px 0;
+  }
+  
+  @media (max-width: 768px) {
+    .limited-product-card {
+      width: 45%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .limited-product-card {
+      width: 100%;
+    }
+  }
 
 
 
